@@ -1,0 +1,91 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.btn-design{
+    background-color: black;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.carousel-indicators li{
+    background-image: linear-gradient(rgb(236, 240, 17), rgb(241, 109, 21));
+    height: 6px;
+    border-radius: 11px;
+}
+.ancor-color a{
+    color: rgb(255, 94, 0);
+}
+.card{
+    padding: 40px 20px;
+    border: none;
+    box-shadow: 1px 1px 10px rgb(241, 240, 240);
+    border-radius: 5px;
+}
+.card-body h5, p{
+    text-align: center;
+}
+.uderline-small{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  .uderline-small::after{
+    content:'';
+    height: 5px;
+    width: 120px;
+    background-color: orange;
+    position: absolute;
+    left: 45%;
+    bottom: 0%;
+    border-radius: 30px;
+  }
+.pale-order img{
+    width: 100%;
+  }
+.img-border{
+    box-shadow: 1px 1px 10px rgb(240, 238, 238);
+    padding: 30px 40px 20px 40px;
+    margin: 20px;
+    
+}
+.img-border p{
+    padding-top: 20px;
+}
+.row{
+    padding-bottom: 20px;
+}
+.pole-order img{
+    width: 100%;
+}
+
+.border-img{
+    width: 100px;
+    height: 7px;
+    border-radius: 10px;
+}
+#subscribers{
+    height: 200px;
+    background-color: #fcf0f4;
+    border-radius: 10px;
+}
+.icon-centre img{
+    width: 3%;
+    padding: 3px;
+}
+.centre img{
+    width: 25%;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+#contact{
+    text-align: center;
+}
+.form-control{
+    margin: 15px 0px;
+}
