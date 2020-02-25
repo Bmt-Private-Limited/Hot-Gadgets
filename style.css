@@ -1,10 +1,32 @@
 html{
     scroll-behavior: smooth;
 }
-
+.abc :hover{
+    color: rgb(255, 94, 0);
+}
 .container{
     margin-top: 30px;
     margin-bottom: 20px;
+}
+.slide {
+    margin-top: 110px;
+}
+.slider-product-png{
+    height: 331px;
+    width: 90px;
+}
+.left-side img {
+    transition: .3s;
+  }
+  
+  .left-side img:hover {
+    transform: scale(1.05);
+  }
+
+#home {
+    background-image: url(images/banner-products/bg2.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
 }
 .btn-design{
     background-color: black;
@@ -24,12 +46,24 @@ html{
 .card{
     padding: 40px 20px;
     border: none;
-    box-shadow: 1px 1px 10px rgb(241, 240, 240);
+    box-shadow: 4px 3px 7px #b2a5a5;
     border-radius: 5px;
 }
-.card-body h5, p{
-    text-align: center;
-}
+.card img {
+    transition: .3s;
+  }
+  
+  .card img:hover {
+    transform: scale(1.05);
+  }
+  .ancor-color a{text-decoration: none;}
+  .see-all{
+      font-size: 20px;
+      transition: .3s;
+  }
+  .see-all:hover {
+    border-bottom: 2px solid #FF9D00;
+  }
 .uderline-small{
     display: inline-block;
     position: relative;
@@ -48,11 +82,18 @@ html{
 .pale-order img{
     width: 100%;
   }
-.img-border{
-    box-shadow: 1px 1px 10px rgb(240, 238, 238);
+.img-border {
+    box-shadow: 3px 3px 20px 0px rgb(178, 167, 167);
     padding: 30px 40px 20px 40px;
     margin: 20px;
+   
     
+}
+.categories-image{
+    transition: .3s;
+}
+.categories-image:hover{
+    transform: scale(1.1);
 }
 .img-border p{
     padding-top: 20px;
@@ -88,4 +129,34 @@ html{
 }
 .form-control{
     margin: 15px 0px;
+}
+.buy-now-btn {
+    transition: .3s;
+  }
+  
+  .buy-now-btn:hover {
+    background-color: #374048;
+    transform: scale(1.1);
+  }
+  .coustomers{
+      border-radius: 50%;
+  }
+  
+.footer {
+    padding-top: 20px;
+    background-color: #33352ea1;
+    color: white;
+    border-radius: 10px;
+}
+
+.customer-review{
+    background-color: #fcf0f4;
+    border-radius: 10px;
+}
+#ul  li a{
+    color: whitesmoke;
+}
+#copy-right{
+    color: black;
+    margin-bottom: 0;
 }
